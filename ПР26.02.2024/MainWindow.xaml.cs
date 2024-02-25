@@ -31,9 +31,10 @@ namespace ПР26._02._2024
         private void Calculate_Click(object sender, RoutedEventArgs e)
         {
             x = Convert.ToDouble(InputX.Text);
-            y = Convert.ToDouble(InputX.Text);
-            z = Convert.ToDouble(InputX.Text);
+            y = Convert.ToDouble(InputY.Text);
+            z = Convert.ToDouble(InputZ.Text);
             double a = 0;
+            CalculateAnswer.Items.Clear();
             a = Math.Log(Math.Pow(y, -Math.Sqrt(Math.Abs(x)))) * (x - (y / 2) + Math.Pow(Math.Sin(Math.Atan(z)), 2));
             CalculateAnswer.Items.Add("ПР№3 Волков А.П.");
             CalculateAnswer.Items.Add($"X = {x}");

@@ -18,11 +18,11 @@
             </StackPanel>
             <StackPanel Orientation="Horizontal">
                 <TextBlock Text="Введите значение Y:" Width="155px" FontSize="16" Margin="5"></TextBlock>
-                <TextBox Width="155px" Margin="5"></TextBox>
+                <TextBox Name="InputY" Width="155px" Margin="5"></TextBox>
             </StackPanel>
             <StackPanel Orientation="Horizontal">
                 <TextBlock Text="Введите значение Z:" Width="155px" FontSize="16" Margin="5"></TextBlock>
-                <TextBox Width="155px" Margin="5"></TextBox>
+                <TextBox Name="InputZ" Width="155px" Margin="5"></TextBox>
             </StackPanel>
         </StackPanel>
         <StackPanel Grid.Row="1" Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center"> 
