@@ -24,5 +24,22 @@ namespace ПР26._02._2024
         {
             InitializeComponent();
         }
+        double x = 0;
+        double y = 0;
+        double z = 0;
+
+        private void Calculate_Click(object sender, RoutedEventArgs e)
+        {
+            x = Convert.ToDouble(InputX.Text);
+            y = Convert.ToDouble(InputX.Text);
+            z = Convert.ToDouble(InputX.Text);
+            double a = 0;
+            a = Math.Log(Math.Pow(y, -Math.Sqrt(Math.Abs(x)))) * (x - (y / 2) + Math.Pow(Math.Sin(Math.Atan(z)), 2));
+            CalculateAnswer.Items.Add("ПР№3 Волков А.П.");
+            CalculateAnswer.Items.Add($"X = {x}");
+            CalculateAnswer.Items.Add($"Y = {y}");
+            CalculateAnswer.Items.Add($"Z = {z}");
+            CalculateAnswer.Items.Add($"Результат a = {a}");
+        }
     }
 }
