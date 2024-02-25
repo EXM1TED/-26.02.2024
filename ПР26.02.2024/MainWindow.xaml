@@ -28,7 +28,7 @@
         <StackPanel Grid.Row="1" Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center"> 
             <StackPanel>
                 <TextBlock Text="Результат выполнения программы:" FontSize="16" ></TextBlock>
-                <ListBox Name="CalculateAnswer"  Width="340" Height="190"></ListBox>
+                <ListBox Name="CalculateAnswer"  Width="340" Height="190" FontSize="16"></ListBox>
             </StackPanel>
             <Button Name="Calculate" Content="Выполнить" HorizontalAlignment="Right" Margin="0 10 0 0" FontSize="16" Click="Calculate_Click"></Button>
         </StackPanel>
